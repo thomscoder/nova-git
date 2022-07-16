@@ -13,6 +13,8 @@ $ go run main.go
 $ nova
 ```
 
+<img src="https://i.imgur.com/yCRWIeb.gif" />
+
 Nova currently supports several commands:
 
 - <b>nova <FILE_NAME></b> - File I/O
