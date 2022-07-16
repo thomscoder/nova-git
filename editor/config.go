@@ -148,7 +148,7 @@ func (e *NovaEditor) ProcessKey(store billy.Filesystem, file billy.File) error {
 	case variables.Enter:
 		e.InsertNewline()
 
-	case variables.Key(ctrl('z')):
+	case variables.Key(ctrl('x')):
 
 		if e.dirty > 0 && e.quitCounter < quitTimes {
 			e.SetStatusMessage(

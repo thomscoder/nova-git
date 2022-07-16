@@ -75,8 +75,8 @@ func inputsParser(store billy.Filesystem, repo *git.Repository, ns ns.NovaStore,
 			ns.Screenshot(store, wt)
 			return true
 		case texts.Status:
-			status := ns.GetStatus(wt)
-			log.Println(status)
+			status := ns.GetStatus(wt).String()
+			log.Printf(fmt.Sprintf(texts.StatusSuccessfully, texts.CYAN, texts.RESET, status))
 			return true
 		case texts.Logger:
 			logs := ns.GetLogs(repo)
