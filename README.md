@@ -33,6 +33,6 @@ Commands:
 
 <img src="https://i.ibb.co/RHvqqSD/Schermata-2022-04-24-alle-16-08-01.png" style="width: 70%" />
 
-- <b>CTRL+Z</b> - Exit
+- <b>CTRL+X</b> - Exit
 - <b>CTRL+R</b> - Save on disk
 - <b>CTRL+S</b> - Save as memory file
