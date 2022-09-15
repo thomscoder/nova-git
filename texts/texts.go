@@ -5,7 +5,7 @@ const (
 	StartFlag                = "start"
 	StartDescription         = "Start Nova"
 	CurrentDirectory         = "."
-	RepositoryToClone        = "Which repository do you want to clone? (Leave it blank to clone current repository):"
+	RepositoryToClone        = "URL/Path of the repository to clone (Leave it blank to clone current repository):"
 	Screenshot               = "screenshot"
 	Files                    = "ls"
 	Infos                    = "watcher"
