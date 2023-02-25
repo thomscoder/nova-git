@@ -6,7 +6,7 @@ require (
 	github.com/go-git/go-billy/v5 v5.3.1
 	github.com/go-git/go-git/v5 v5.4.2
 	github.com/mattn/go-runewidth v0.0.13
-	golang.org/x/sys v0.0.0-20210615035016-665e8c7367d1
+	golang.org/x/sys v0.1.0
 )
 
 require (
